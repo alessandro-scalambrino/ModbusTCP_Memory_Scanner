@@ -28,6 +28,7 @@ git clone https://github.com/alessandro-scalambrino/ModbusTCP_Memory_Scanner
 ```
 **Install dependencies:**
 ```sh
+cd ModbusTCP_Memory_Scanner
 pip install -r requirements.txt
 ```
 
