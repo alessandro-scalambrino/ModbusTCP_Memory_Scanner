@@ -26,6 +26,9 @@ Modbus Registers Reader is a Python application that allows users to connect to 
   ```sh
 git clone https://github.com/alessandro-scalambrino/ModbusTCP_Memory_Scanner
 cd ModbusTCP_Memory_Scanner
+```
+**Install dependencies:**
+```sh
 pip install -r requirements.txt
 ```
 
