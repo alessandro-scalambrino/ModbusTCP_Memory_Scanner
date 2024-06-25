@@ -16,34 +16,21 @@ Modbus Registers Reader is a Python application that allows users to connect to 
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Project Structure](#project-structure)
-- [License](#license)
-- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ## Installation
 
-1. **Clone the repository:**
+**Clone the repository:**
 
-   ```sh
-   git clone https://github.com/alessandro-scalambrino/ModbusTCP_Memory_Scanner
-   cd ModbusTCP_Memory_Scanner
-Create and activate a virtual environment:
-
-
-Install the required dependencies:
-
-sh
-Copia codice
+  ```sh
+git clone https://github.com/alessandro-scalambrino/ModbusTCP_Memory_Scanner
+cd ModbusTCP_Memory_Scanner
 pip install -r requirements.txt
-Usage
-Run the application:
+```
 
-sh
-Copia codice
-python main.py
-Configure the connection:
 
+**Usage
 Enter the IP address of the Modbus device.
 Enter the port number (default is 502).
 Specify the range of registers to read.
