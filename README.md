@@ -26,14 +26,11 @@ Modbus Registers Reader is a Python application that allows users to connect to 
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/modbus-registers-reader.git
-   cd modbus-registers-reader
+   git clone https://github.com/alessandro-scalambrino/ModbusTCP_Memory_Scanner
+   cd ModbusTCP_Memory_Scanner
 Create and activate a virtual environment:
 
-sh
-Copia codice
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
 Install the required dependencies:
 
 sh
@@ -55,6 +52,7 @@ Start reading data:
 Click on the "Read Registers" button.
 View the data in the provided tables.
 Export the data to an Excel file if needed.
+
 Dependencies
 Python 3.7+
 pandas
